@@ -17,7 +17,17 @@
 </header>
 <main>
 	<div class="signup-box">
-		<h3>Sign Up</h3>
+		<p>Sign Up</p>
+		<form class="signup-form" action="/signup/" method="post">
+			<label for="email">Email</label>
+			<input id="email" type="text" name="email" placeholder="foo@bar.com">
+			
+			<label for="password">Password</label>
+			<input id="password" type="text" name="password" placeholder="1234passw0rd">
+
+			<button type="submit">Sign up</button>
+
+		</form>
 	</div>
 </main>
 </body>
