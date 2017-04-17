@@ -17,17 +17,21 @@
 </header>
 <main>
 	<div class="signup-box">
-		<p>Sign Up</p>
+		<p class="signup-box-label">Sign Up</p>
 		<form class="signup-form" action="/signup/" method="post">
 			<label for="email">Email</label>
-			<input id="email" type="text" name="email" placeholder="foo@bar.com">
+			<input id="email" type="email" name="email" placeholder="foo@bar.com" required/>
 			
 			<label for="password">Password</label>
-			<input id="password" type="text" name="password" placeholder="1234passw0rd">
+			<input id="password" type="text" name="password" placeholder="1234passw0rd" required/>
 
 			<button type="submit">Sign up</button>
 
 		</form>
+		<p class="forgot-password"><a href="/forgot-password/new">Forgot password?</a></p>
+	</div>
+	<div class="existing-customer">
+		<p>Already have an account? <a href="/login">Log In</a></p>
 	</div>
 </main>
 </body>
