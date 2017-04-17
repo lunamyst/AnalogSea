@@ -82,6 +82,10 @@ p.forgot-password {
 	font-weight: 500; 
 }
 
+.signup-form button:hover {
+	background-color: #008040; 
+}
+
 /*Rest of Body */
 .existing-customer {
 	text-align: center;
